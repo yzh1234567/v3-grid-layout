@@ -1,0 +1,56 @@
+{
+  "name": "vue3-grid-layout-test",
+  "version": "1.0.1-beat.4",
+  "description": "A draggable and resizable grid layout, as a Vue3.0 component",
+  "keywords": [
+    "grid",
+    "vuejs",
+    "drag",
+    "draggable",
+    "resize",
+    "resizable",
+    "fluid",
+    "responsive"
+  ],
+  "files": [
+    "dist",
+    "package.json"
+  ],
+  "main": "dist/index.umd.js",
+  "module": "dist/index.mjs",
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.umd.js"
+    }
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build ",
+    "preview": "vite preview --port 4173",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.4",
+    "@vitejs/plugin-vue-jsx": "^3.1.0",
+    "eslint": "^8.22.0",
+    "eslint-plugin-vue": "^9.3.0",
+    "vite": "^5.1.4",
+    "vue": "^3.2.25"
+  },
+  "dependencies": {
+    "@interactjs/actions": "^1.10.17",
+    "@interactjs/auto-scroll": "^1.10.17",
+    "@interactjs/auto-start": "^1.10.17",
+    "@interactjs/dev-tools": "^1.10.17",
+    "@interactjs/interactjs": "^1.10.17",
+    "@interactjs/interact": "^1.10.17",
+    "@interactjs/modifiers": "^1.10.17",
+    "element-resize-detector": "^1.2.4",
+    "mitt": "^3.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yzh1234567/v3-grid-layout"
+  }
+}
